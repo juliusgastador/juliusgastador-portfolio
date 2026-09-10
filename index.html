@@ -687,33 +687,38 @@
     <section class="projects" id="projects">
 
         <div class="section-title">
-            <h2>My <span>Projects</span></h2>
-            <p>Some of the websites and applications I have built and continue to develop.</p>
+           <h2>My <span>Projects</span></h2>
+           <p>Some of the websites and applications I have built and continue to develop.</p>
         </div>
 
-        <div class="projects-container">
+        <div class="stage" id="stage">
+            <div class="ring" id="ring">
 
-            <!-- PROJECT 1 -->
-            <div class="projects-container single-project">
+                     <div class="card" data-index="0">
+                         <div class="card-thumb" role="img" aria-label="Christian Modina VA Portfolio screenshot"></div>
+                   <h3>Christian Modina — VA Portfolio Website</h3>
+                   <p class="desc">Personal portfolio website built for a Virtual Assistant and Customer Service professional with 8+ years of experience supporting US and Australia-based businesses.</p>
+                   <div class="tag-row">
+                      <span class="tag">HTML</span>
+                      <span class="tag">CSS</span>
+                      <span class="tag">JavaScript</span>
+                    </div>
+                    <a class="view-link" href="https://juliusgastador.github.io/christian-portfolio/" target="_blank" rel="noopener">View live site &rarr;</a>
+                </div>
 
-    <div class="project-card featured">
+                <div class="card placeholder" data-index="1"><h3>Next project</h3><p class="desc">More work in progress — check back soon.</p></div>
+                <div class="card placeholder" data-index="2"><h3>Next project</h3><p class="desc">More work in progress — check back soon.</p></div>
+                <div class="card placeholder" data-index="3"><h3>Next project</h3><p class="desc">More work in progress — check back soon.</p></div>
+                <div class="card placeholder" data-index="4"><h3>Next project</h3><p class="desc">More work in progress — check back soon.</p></div>
+                <div class="card placeholder" data-index="5"><h3>Next project</h3><p class="desc">More work in progress — check back soon.</p></div>
 
-        <div class="project-content">
-           <h3>New Projects Coming Soon</h3>
-            <p>
-              I'm currently building new projects to showcase here. In the meantime, if you need a modern, responsive website for your business, feel free to get in touch and let's discuss your project.
-            </p>
-
-            <div class="project-buttons">
-               <a href="#contact">Let's Work Together</a>
             </div>
         </div>
 
-    </div>
+        <div class="dots" id="dots"></div>
+        <p class="hint">Drag left or right to spin</p>
 
-</div>
     </section>
-
     <!-- ====================================================
     CONTACT SECTION
     ========================================================= -->
@@ -936,9 +941,10 @@
             emailjs.init("hNRKNbMCxDWQybw_4");
         })();
     </script>
-
+    
     <script src="js/script.js"></script>
     <script src="js/skills-interaction.js"></script>
+    <script src="js/projects.js"></script>
 
 </body>
 </html>
